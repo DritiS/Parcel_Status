@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcel Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1e6; /* Light brown background */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #654321; /* Brown title color */
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Parcel Status</h1>
+    <p>Parcel ID: {{ data.parcel_id }}</p>
+    <p>Status of the parcel: {{ data.status }}</p>
+</body>
+</html>
